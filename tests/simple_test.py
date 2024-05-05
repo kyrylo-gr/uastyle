@@ -1,7 +1,10 @@
 # flake8: noqa: D101, D102
+import importlib
 import unittest
 
 import matplotlib as mpl
+
+import uastyle
 
 
 class BasicTests(unittest.TestCase):
@@ -26,9 +29,12 @@ class BasicTests(unittest.TestCase):
     def test_import_method(self):
         from uastyle import apply_colors  # pylint: disable=C0415, W0611
 
+        importlib.reload(apply_colors)
+
         self.check_colors()
 
     def test_import_from_apply(self):
+
         from uastyle.apply_colors import colors  # pylint: disable=C0415, W0611
 
         self.check_colors()

@@ -5,7 +5,7 @@ import setuptools
 NAME = "uastyle"
 AUTHOR = "kyrylo.gr"
 AUTHOR_EMAIL = "git@kyrylo.gr"
-DESCRIPTION = "UA colors for matplotlib"
+DESCRIPTION = "Ukrainian colors for matplotlib"
 
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -34,6 +34,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     install_requires=["matplotlib"],
 )
