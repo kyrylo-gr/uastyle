@@ -18,16 +18,20 @@ def make_default_colors():
     )
 
 
-def make_default_font_size():
+# DEFAULT_MARKEREDGEWIDTH = 1
+# DEFAULT_SIZE = 10
+
+
+def make_default_font_size(font_size: int = 12):
     mpl.rcParams.update(
         {
-            "font.size": 12,
-            "axes.titlesize": 12,
-            "axes.labelsize": 12,
-            "xtick.labelsize": 12,
-            "ytick.labelsize": 12,
-            "legend.fontsize": 12,
-            "figure.titlesize": 12,
+            "font.size": font_size,
+            "axes.titlesize": font_size,
+            "axes.labelsize": font_size,
+            "xtick.labelsize": font_size,
+            "ytick.labelsize": font_size,
+            "legend.fontsize": font_size,
+            "figure.titlesize": font_size,
         }
     )
 

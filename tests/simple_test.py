@@ -4,8 +4,6 @@ import unittest
 
 import matplotlib as mpl
 
-import uastyle
-
 
 class BasicTests(unittest.TestCase):
     def setUp(self) -> None:
