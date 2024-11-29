@@ -42,6 +42,8 @@ class Color:
     GREY_DARK = "#202020"
     GREY_LIGHT = "#A2A2A2"
 
+    BLACK = "#000000"
+
 
 colors = [
     Color.BLUE,
