@@ -32,6 +32,7 @@ def make_default_font_size(font_size: int = 12):
             "ytick.labelsize": font_size,
             "legend.fontsize": font_size,
             "figure.titlesize": font_size,
+            "figure.labelsize": font_size,
         }
     )
 
